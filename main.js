@@ -7,14 +7,12 @@
  *   - modal suggesters: command palette, quick switcher, etc.
  *   - inline editor popups: [[ links, #tags, and other EditorSuggest popups.
  *
- * Default keys: Alt+J = down, Alt+K = up.
+ * Default keys: Ctrl+J = down, Ctrl+K = up.
  *
- * To use Ctrl instead of Alt, change MODIFIER below to "ctrl".
- * (If you KEEP your Ctrl+J / Ctrl+K "insert link" hotkeys, leave this on "alt"
- *  so the two don't collide.)
+ * To use Alt or a different modifier instead of Ctrl, change MODIFIER below.
  */
 
-const MODIFIER = "ctrl";   // "alt" or "ctrl"
+const MODIFIER = "ctrl";  // "alt" or "ctrl"
 const DOWN_KEY = "KeyJ";  // e.code for "move down"
 const UP_KEY   = "KeyK";  // e.code for "move up"
 
