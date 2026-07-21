@@ -1,0 +1,9 @@
+{
+  "id": "suggester-vim-nav",
+  "name": "Suggester Vim Nav",
+  "version": "1.0.0",
+  "minAppVersion": "1.0.0",
+  "description": "Vim-style Ctrl+J / Ctrl+K navigation in the command palette, quick switcher, and inline [[ / # suggestion popups.",
+  "author": "Meodoc",
+  "isDesktopOnly": false
+}
